@@ -265,7 +265,7 @@
     }
 
     .s-1-text h1 {
-        line-height: 35px; font-size:25px
+        line-height: 35px; font-size:23px
     }
 
     .wrap {
@@ -285,7 +285,7 @@
         padding-left: 20px;
     }
 
-.s-2-row .col-1 h4{ float:left
+.s-2-row .col-1 h4{ float:left !important
 }
 
     .s-3-inner h4 {
