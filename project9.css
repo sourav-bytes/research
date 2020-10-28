@@ -1,0 +1,307 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-transform: capitalize
+}
+
+.s-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative
+}
+
+.clickbar {
+    display: none
+}
+
+.responsive-nav {
+    display: none;
+}
+
+.navbar {
+    padding-top: 20px
+}
+
+.nav-link {
+    margin: 0px 15px;
+    padding: 5px 20px;
+    font-weight: 500
+}
+
+.s-1-text {
+    padding-top: 100px;
+    padding-bottom: 100px
+}
+
+.s-1-row {
+    margin: 0px 75px
+}
+
+.s-1-row .col-12 i {
+    font-size: 40px;
+    padding-bottom: 20px
+}
+
+.s-1-row .col-12 p {
+    padding-bottom: 33px
+}
+
+.s-2 {
+    position: relative
+}
+
+.wrap {
+    width: 400px;
+    height: 100%;
+    background: rgba(0, 128, 0, 0.4);
+    position: absolute;
+    right: 0;
+    clip-path: polygon(63% 0, 100% 0%, 100% 100%, 23% 100%);
+}
+
+.s-2-inner {
+    padding-left: 125px;
+    margin-right: 75px;
+    padding: 50px 0px;
+}
+
+.s-2-row .col-1 {
+    direction: rtl;
+    padding-left: 170px;
+}
+
+.s-2-row .col-1 p {
+    line-height: 30px;
+    padding: 20px 0px
+}
+
+.s-3 {
+    background: #312626
+}
+
+.s-3-inner {
+    margin: 0px 75px;
+    padding: 50px 0px
+}
+
+.s-3-row .col-12 p {
+    line-height: 30px;
+    padding: 20px 0px
+}
+
+.s-4-inner {
+    margin: 0px 75px;
+    padding-bottom: 30px;
+}
+
+.s-4-inner h2 {
+    margin: 0px 45px;
+}
+
+.s-4-row .col-12 {
+    margin: 20px 0px
+}
+
+.card {
+    margin: auto;
+
+}
+
+.card-body {
+    background: ;
+}
+
+.card-body p {
+    color: gray
+}
+
+.s-5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.s-5-inner {
+    padding: 75px 0px
+}
+
+.s-5-inner p {
+    padding: 20px 0px;
+    line-height: 30px
+}
+
+.s-5-inner .btn-1 {
+    background: #0cab0c;
+    font-weight: 500;
+    color: white
+}
+
+.s-5-inner .btn-2 {
+    border: 2px solid #0cab0c;
+    font-weight: 500;
+    color: white
+}
+
+.s-5 .footer {
+    text-align: right;
+    font-size: 14px;
+    color: white
+}
+
+
+@media only screen and (max-width: 991px) {
+
+    .clickbar {
+        display: block;
+        color: white;
+        font-size: 25px
+    }
+
+    .responsive-nav {
+        display: block;
+        position: absolute;
+        width: 0%;
+        height: 100vh;
+        background: white;
+        top: 0;
+        left: 0;
+        transition: 0.5s
+    }
+
+    .responsive-nav ul {
+        padding-left: 0px;
+        padding-top: 50px
+    }
+
+    .responsive-nav ul li {
+        list-style-type: none;
+        font-size: 25px;
+        font-weight: bold;
+        margin: 20px 0px;
+        color: transparent;
+        transition: 0.5s
+    }
+
+    .responsive-nav ul li:hover {
+        transform: scale(1.1);
+        cursor: pointer
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .s-1-text {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .s-1-row {
+        margin: 0px 35px;
+    }
+
+    .s-1-row .col-12 p {
+        padding-bottom: 33px;
+        font-size: 14px;
+    }
+
+    .s-2-row .col-1 {
+        direction: rtl;
+        padding-left: 40px;
+    }
+
+    .s-2-inner {
+        padding-left: 125px;
+        margin-right: 40px;
+        padding: 50px 0px;
+    }
+
+    .j {
+        margin: auto
+    }
+
+    .s-3-inner {
+        margin: 0px 40px;
+        padding: 50px 0px;
+    }
+
+    .s-3-inner h4 {
+        font-size: 20px
+    }
+
+    .s-4-inner {
+        margin: 0px 40px;
+        padding-bottom: 30px;
+    }
+
+    .s-4-inner .hr {
+        width: 150px;
+        margin-left: 0px;
+        margin-top: 50px;
+        color: green;
+        height: 5px;
+        background: green;
+    }
+
+    .s-4-inner h2 {
+        margin: 0px 0px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+
+    .navbar > .container-fluid {
+        margin: 0px 10px !important;
+    }
+
+    .s-1-text {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: 0px 0px;
+        padding-left: 30px;
+    }
+
+    .s-1-text h1 {
+        line-height: 35px
+    }
+
+    .wrap {
+        display: none
+    }
+
+    .s-2-inner {
+        padding-left: 0px;
+        margin-right: 0px;
+        padding: 50px 0px;
+    }
+
+    .s-2-row .col-1 {
+        direction: ltr;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .s-3-inner h4 {
+        font-size: 20px;
+        float: right;
+    }
+
+    .s-3-inner {
+        margin: 0px 20px;
+        padding: 50px 0px;
+    }
+
+    .s-4-inner {
+        margin: 0px 20px;
+        padding-bottom: 30px;
+    }
+
+    .s-4-inner h2 {
+        margin: 0px 0px;
+        text-align: center;
+        font-size: 35px;
+    }
+}
